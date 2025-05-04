@@ -3,14 +3,18 @@ import { readContacts } from '../utils/readContacts.js';
 import { writeContacts } from '../utils/writeContacts.js';
 
 const nArg = process.argv[2];
-const number = parseInt(nArg, 10);
-
+let number;
+if (nArg === undefined) {
+  number = 5;
+} else {
+  number = parseInt(nArg, 10);
+}
 if (isNaN(number) || number <= 0) {
   console.error('Please provide a valid positive integer as an argument.');
   process.exit(1);
 }
 
-export const generateContacts = async (number) => {
+export const generateContacts = async (number = 5) => {
   try {
     const oldContacts = await readContacts();
     let newContacts = [];
