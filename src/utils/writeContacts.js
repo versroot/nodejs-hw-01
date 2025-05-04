@@ -4,7 +4,7 @@ import * as fs from 'node:fs/promises';
 import path from 'node:path';
 
 const root = appRoot.path;
-const PATH = path.join(root, PATH_DB.replace(/^src\//, ''));
+const PATH = path.join(root, PATH_DB);
 
 export const writeContacts = async (updatedContacts) => {
   fs.writeFile(PATH, JSON.stringify(updatedContacts, null, 2), 'utf-8')

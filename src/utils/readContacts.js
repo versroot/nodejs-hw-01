@@ -4,7 +4,7 @@ import { PATH_DB } from '../constants/contacts.js';
 import appRoot from 'app-root-path';
 
 const root = appRoot.path;
-const PATH = path.join(root, PATH_DB.replace(/^src\//, ''));
+const PATH = path.join(root, PATH_DB);
 export const readContacts = async () => {
   try {
     const data = await fs.readFile(PATH, 'utf-8');

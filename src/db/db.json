@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "73461c47-fa09-44e1-9280-71052952aef0",
+    "name": "Wm Lueilwitz",
+    "phone": "978-540-1234 x2006",
+    "email": "Raymond65@yahoo.com",
+    "job": "Senior Data Coordinator"
+  },
+  {
+    "id": "e7b5cfec-b949-4626-94b4-9d6e8cae192f",
+    "name": "Gustavo Gibson",
+    "phone": "1-471-546-6445 x2256",
+    "email": "Julius95@yahoo.com",
+    "job": "National Operations Strategist"
+  },
+  {
+    "id": "039738ba-aba2-420c-a197-2729c19d204d",
+    "name": "Theodore Crist",
+    "phone": "482-954-6915 x3852",
+    "email": "Dave.Yost@yahoo.com",
+    "job": "Chief Functionality Strategist"
+  }
+]
